@@ -36,7 +36,7 @@ public class Client {
     }
 
     private void waitMessage(BufferedReader reader) throws IOException {
-        String message =reader.readLine();
+        String message = reader.readLine();
 
         if (message== null) {
             System.out.println("Connection closed from server side");
@@ -44,6 +44,7 @@ public class Client {
         }
 
         System.out.println(message);
+
     }
 
 }

@@ -21,7 +21,7 @@ public class KeyboardHandler implements Runnable {
             Scanner scanner = new Scanner(System.in);
 
             while (!socket.isClosed()) {
-                String input =scanner.nextLine();
+                String input = scanner.nextLine();
 
                 if (input.equals(EXIT)) {
                     System.exit(0);
