@@ -74,7 +74,7 @@ public class Server {
 
         synchronized (clients) {
             for (ClientConnection client : clients) {
-                list.append(client.getname()).append("\n");
+                list.append(client.getName()).append("\n");
             }
         }
 
