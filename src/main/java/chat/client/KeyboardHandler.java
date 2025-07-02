@@ -27,7 +27,7 @@ public class KeyboardHandler implements Runnable {
                     System.exit(0);
                 }
 
-                writer.print(input);
+                writer.println(input);
             }
         } catch (IOException e) {
             System.err.println("Error handling socket connection: " + e.getMessage());

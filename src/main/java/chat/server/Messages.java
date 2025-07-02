@@ -1,7 +1,7 @@
 package chat.server;
 
 public class Messages {
-    public static final String WELCOME = "Welcome to the studIO chat server!";
+    public static final String WELCOME = "Welcome to the chat server!";
     public static final String HELP = "Type /help to see the full list of commands";
     public static final String SERVER_FULL = "Server is full. Try again later";
     public static final String NEW_CONNECTION = "A new user has connected to the server";
